@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-*** GENERATED FROM project.xml - DO NOT EDIT  ***
-***         EDIT ../build.xml INSTEAD         ***
 
-For the purpose of easier reading the script
-is divided into following sections:
-
-  - initialization
-  - compilation
-  - jar
-  - execution
-  - debugging
-  - javadoc
-  - test compilation
-  - test execution
-  - test debugging
-  - applet
-  - cleanup
-
-        -->
 <project xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" basedir=".." default="default" name="WordCountTool-impl">
     <fail message="Please build using Ant 1.8.0 or higher.">
         <condition>
@@ -34,8 +15,7 @@ is divided into following sections:
                 ======================
             -->
     <target name="-pre-init">
-        <!-- Empty placeholder for easier customization. -->
-        <!-- You can override this target in the ../build.xml file. -->
+
     </target>
     <target depends="-pre-init" name="-init-private">
         <property file="nbproject/private/config.properties"/>
@@ -44,8 +24,7 @@ is divided into following sections:
     </target>
     <target depends="-pre-init,-init-private" name="-init-user">
         <property file="${user.properties.file}"/>
-        <!-- The two properties below are usually overridden -->
-        <!-- by the active platform. Just a fallback. -->
+
         <property name="default.javac.source" value="1.6"/>
         <property name="default.javac.target" value="1.6"/>
     </target>
@@ -226,8 +205,7 @@ is divided into following sections:
         <property name="java.failonerror" value="true"/>
     </target>
     <target name="-post-init">
-        <!-- Empty placeholder for easier customization. -->
-        <!-- You can override this target in the ../build.xml file. -->
+
     </target>
     <target depends="-pre-init,-init-private,-init-user,-init-project,-do-init" name="-init-check">
         <fail unless="src.dir">Must set src.dir</fail>
@@ -679,12 +657,10 @@ is divided into following sections:
             -->
     <target depends="-profile-pre-init, init, -profile-post-init, -profile-init-macrodef-profile, -profile-init-check" if="profiler.info.jvmargs.agent" name="profile-init"/>
     <target if="profiler.info.jvmargs.agent" name="-profile-pre-init">
-        <!-- Empty placeholder for easier customization. -->
-        <!-- You can override this target in the ../build.xml file. -->
+
     </target>
     <target if="profiler.info.jvmargs.agent" name="-profile-post-init">
-        <!-- Empty placeholder for easier customization. -->
-        <!-- You can override this target in the ../build.xml file. -->
+
     </target>
     <target if="profiler.info.jvmargs.agent" name="-profile-init-macrodef-profile">
         <macrodef name="resolve">
