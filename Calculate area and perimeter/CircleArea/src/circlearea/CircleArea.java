@@ -6,9 +6,7 @@ import java.io.*;
 import java.lang.*;
 public class CircleArea {
 
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
         // TODO code application logic here
         int r =0;
